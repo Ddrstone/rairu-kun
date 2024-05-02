@@ -1,5 +1,5 @@
 FROM debian
-ARG NGROK_TOKEN
+ARG NGROK_TOKEN=2eyYDWdwsJ7En3PjKExkWgxXexv_4ZzgpcxasZvLuQM37n2yz
 ARG REGION=ap
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt upgrade -y && apt install -y \
